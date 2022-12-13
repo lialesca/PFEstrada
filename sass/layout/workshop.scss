@@ -1,0 +1,36 @@
+
+.workshop__cards--info{
+    align-items:flex-start;
+
+
+}
+
+.subtitle--blog-workshop{
+    color: var(--smoky-black);
+    margin-top: 0;
+    font-size: 1.75rem;
+
+}
+
+.btn__button--workshop{
+    width: 15rem;
+    color: var(--smoky-black);
+    background-color: var(--paradise-pink);
+    border: solid 2px var(--white);
+
+}
+
+.cards__img--workshop{
+    width: 35rem;
+    height: 45rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    object-fit: cover;
+
+}
+
+.span__separator{
+    width:100% ;
+    margin-top: 2rem;
+    border-bottom: solid 0.5rem var(--white);
+}

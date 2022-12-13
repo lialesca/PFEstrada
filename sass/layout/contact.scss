@@ -1,0 +1,49 @@
+.contact__container{
+    @include column-align;
+
+    &--left{
+        @include column-align;
+        gap: 3rem;
+    }
+
+    &--right{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+.form__container{
+    margin-top: 2rem;
+    background-color: var(--very-light-pink);
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    padding: 2rem;
+    &--items{
+        div{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+    }
+
+    &--btn{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        gap: 2rem;
+        padding: 1rem;
+    }
+
+    &--items-text{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+.input--contact{
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+
+@import 'variables/stylevars.scss';
+
+@import 'mixins/aligment.scss';
+
+/*------------------------------------------Configuraciones generales------------------------------------------- */
+@import 'layout/general.scss';
+
+/* ______________Footer________________*/
+@import 'components/footer.scss';
+
+
+/*------------------------------------------Main index------------------------------------------- */
+@import 'layout/home.scss';
+
+
+/* ______________Banner_________________*/
+@import 'components/banner.scss';
+
+
+/*------------------------------------------Blog------------------------------------------- */
+@import 'layout/blog.scss';
+
+
+/*------------------------------------------Workshops------------------------------------------- */
+@import 'layout/workshop.scss';
+
+/*------------------------------------------Tutorials------------------------------------------- */
+@import 'layout/tutorials.scss';
+
+/*------------------------------------------Contact------------------------------------------- */
+@import 'layout/contact.scss';
+
+/*------------------------------------------Medias------------------------------------------- */
+@import 'medias/media_412.scss';
+@import 'medias/media_768.scss';
+@import 'medias/media_1320.scss';
+
+/* ______________Media Query index_________________*/

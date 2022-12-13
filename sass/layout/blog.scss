@@ -1,0 +1,41 @@
+.subtitle--blog{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--spanish-pink);
+    margin-top: 2rem;
+}
+
+.main__cards{
+    margin-top: 2rem;
+}
+
+.cards{
+    &__img--blog{
+        border-radius: 2rem;
+        object-fit: cover;
+    }
+
+    &__icon--container{
+        display: flex;
+        gap: 3rem ;
+        cursor: pointer;
+    }
+
+    &__numbers--container{
+        display: flex;
+        gap: 4.5rem ;
+    }
+}
+
+.blog__cards{
+    &--info{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    &--icon{
+        font-size: 2rem;
+    }
+}
+
